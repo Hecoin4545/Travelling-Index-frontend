@@ -1,9 +1,10 @@
-import { Button } from "./components/ui/button"
+import React from 'react'
+import Navbar from './pagesElement/Navbar/Navbar'
 
 function App() {
   return (
     <>
-      <h1>hello</h1>  
+    <Navbar />
     </>
   )
 }

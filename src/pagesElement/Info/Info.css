@@ -1,0 +1,21 @@
+.info {
+    /* The image used */
+    background-image: url('../../assets/littleInfo.png');
+
+    /* Set a specific height */
+    min-height: 355px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 100%;
+}
+
+.het {
+    font-family: "Bungee", sans-serif;
+    color: white;
+    font-weight: 700;
+
+}

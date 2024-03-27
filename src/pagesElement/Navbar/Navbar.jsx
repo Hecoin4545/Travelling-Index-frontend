@@ -17,9 +17,9 @@ function Navbar() {
       </div>
       <div className="center-navbar w-[63%] flex items-center ">
         <ul className=' w-64 flex justify-start items-center font-[karla] text-lg'>
-          <li className='p-4'><a href="#" className='text-slate-200'>Home</a></li>
-          <li className='p-4'><a href="#" className='text-slate-200'>Explore</a></li>
-          <li className='p-4'><a href="#" className='text-slate-200'>Trending</a></li>
+          <li className='p-4'><a href="#" className='text-slate-200 hover:text-slate-300'>Home</a></li>
+          <li className='p-4'><a href="#" className='text-slate-200 hover:text-slate-300'>Explore</a></li>
+          <li className='p-4'><a href="#" className='text-slate-200 hover:text-slate-300'>Trending</a></li>
         </ul>
       </div>
       <div className="left-navbar w-[20%] flex justify-end pr-10">

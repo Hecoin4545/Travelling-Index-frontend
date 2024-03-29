@@ -11,7 +11,7 @@ import {
 function Navbar() {
   return (
     <>
-    <div className="main-navbar-container w-full flex flex-row bg-[#070F2B]  justify-between h-[4.5rem] ">
+    <div className="main-navbar-container w-full flex flex-row bg-[#070F2B]  justify-between h-[4.5rem] sticky top-0 z-10">
       <div className="left-navbar flex justify-start items-center w-[12%] font-[lora] font-semibold  pl-10 ">
         <p className=' text-slate-200 text-2xl'>Logo</p>
       </div>
@@ -24,6 +24,7 @@ function Navbar() {
       </div>
       <div className="left-navbar w-[20%] flex justify-end pr-10">
         <div className="button-inner flex items-center">
+          <Button variant='secondary' className='cursor-pointer font-bold font-[lora] mr-3' >Travel Facts</Button>
           <Button variant='secondary' className='cursor-pointer font-bold font-[lora]' >Signup</Button>
           <Select >
                 <SelectTrigger className=" ml-3 w-[100px] placeholder-slate-200 text-slate-200 font-[lora] font-semibold">

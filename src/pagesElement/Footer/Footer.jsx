@@ -85,7 +85,7 @@ function Footer() {
                     <ul className='mt-1'>
                                 <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><a href='#'>Private Policies</a></li>
                                 <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><a href='#'>Terms And Conditions</a></li>
-                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><a href='#'></a>Post</li>
+                           
                                 <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><a href='#'>Support</a></li>
                                 <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><a href='#'>Bug?</a></li>
                             </ul>

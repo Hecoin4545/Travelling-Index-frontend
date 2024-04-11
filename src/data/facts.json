@@ -1,0 +1,328 @@
+[
+  {
+    "country": "Japan",
+    "fact": "Vending machines sell everything from live crabs to complete motorcycles."
+  },
+  {
+    "country": "Iceland",
+    "fact": "There are more horses in Iceland than people (around 5 times more!)"
+  },
+  {
+    "country": "Brazil",
+    "fact": "The Amazon rainforest produces 20% of the world's oxygen."
+  },
+  {
+    "country": "Italy",
+    "fact": "The leaning Tower of Pisa is not the only leaning tower in Italy."
+  },
+  {
+    "country": "Netherlands",
+    "fact": "The Netherlands is the world's largest flower exporter."
+  },
+  {
+    "country": "Peru",
+    "fact": "Machu Picchu, the ancient Inca city, was rediscovered by Hiram Bingham in 1911."
+  },
+  {
+    "country": "China",
+    "fact": "The Great Wall of China is the longest man-made structure in the world."
+  },
+  {
+    "country": "Australia",
+    "fact": "Australia has more sheep than people (around 2.5 times more!)"
+  },
+  {
+    "country": "Argentina",
+    "fact": "Tango, the passionate dance, originated in Argentina."
+  },
+  {
+    "country": "Kenya",
+    "fact": "The Great Migration is considered one of the greatest wildlife spectacles on Earth."
+  },
+  {
+    "country": "Egypt",
+    "fact": "The pyramids of Giza are the oldest of the Seven Wonders of the Ancient World."
+  },
+  {
+    "country": "Greece",
+    "fact": "The Olympic Games originated in ancient Greece."
+  },
+  {
+    "country": "Spain",
+    "fact": "The world's first ever novel, Don Quixote, was written by Miguel de Cervantes."
+  },
+  {
+    "country": "France",
+    "fact": "The French Foreign Legion is a military unit of the French Army that allows foreigners to join."
+  },
+  {
+    "country": "United Kingdom",
+    "fact": "The United Kingdom is a group of four countries: England, Scotland, Wales, and Northern Ireland."
+  },
+  {
+    "country": "United States of America",
+    "fact": "The Statue of Liberty was a gift from France to the United States."
+  },
+  {
+    "country": "Canada",
+    "fact": "Canada has the longest coastline in the world."
+  },
+  {
+    "country": "Mexico",
+    "fact": "The ancient Mayan city of Chichen Itza is home to the Kukulkan pyramid, also known as El Castillo."
+  },
+  {
+    "country": "Germany",
+    "fact": "Oktoberfest is a world-famous beer festival held annually in Munich, Germany."
+  },
+  {
+    "country": "Russia",
+    "fact": "Russia is the largest country in the world by land area."
+  },
+  {
+    "country": "Thailand",
+    "fact": "Thailand is the world's second-largest producer of rubber."
+  },
+  {
+    "country": "Vietnam",
+    "fact": "Ha Long Bay, a UNESCO World Heritage Site, is known for its towering limestone pillars and emerald waters."
+  },
+  {
+    "country": "New Zealand",
+    "fact": "New Zealand is known as the adventure capital of the world."
+  },
+  {
+    "country": "South Africa",
+    "fact": "South Africa is home to Robben Island, where Nelson Mandela was imprisoned for 27 years."
+  },
+  {
+    "country": "Morocco",
+    "fact": "Morocco is a North African country with a rich history and culture."
+  },
+  {
+    "country": "Chile",
+    "fact": "Chile is a long, narrow country located in South America."
+  },
+  {
+    "country": "Argentina",
+    "fact": "Argentina is the world's largest producer of yerba mate, a caffeinated herbal drink."
+  },
+  {
+    "country": "Brazil",
+    "fact": "Brazil is the world's leading producer of coffee."
+  },
+  {
+    "country": "India",
+    "fact": "India is a country with a rich diversity of cultures, religions, and languages."
+  },
+  {
+    "country": "Bolivia",
+    "fact": "Salar de Uyuni in Bolivia is the world's largest salt flat, stretching over 10,000 square kilometers."
+  },
+  {
+    "country": "Ghana",
+
+    "fact": "Ghana is the world's second-largest producer of cocoa beans."
+  },
+  {
+    "country": "Indonesia",
+    "fact": "Indonesia is the world's most populous island nation."
+  },
+  {
+    "country": "Switzerland",
+    "fact": "Switzerland has four official languages: German, French, Italian, and Romansh."
+  },
+  {
+    "country": "Sweden",
+    "fact": "The archipelago of Stockholm consists of over 30,000 islands."
+  },
+  {
+    "country": "Czech Republic",
+    "fact": "Prague Castle is the largest ancient castle complex in the world."
+  },
+  {
+    "country": "Kenya",
+    "fact": "Flamingos are a common sight in Lake Nakuru National Park in Kenya."
+  },
+  {
+    "country": "Nepal",
+    "fact": "Mount Everest, the world's highest mountain, is located in Nepal."
+  },
+  {
+    "country": "Iceland",
+    "fact": "Iceland uses geothermal energy to heat a majority of its homes and buildings."
+  },
+  {
+    "country": "Costa Rica",
+    "fact": "Costa Rica is considered one of the happiest countries in the world."
+  },
+  {
+    "country": "Mongolia",
+    "fact": "Mongolia has the world's lowest population density."
+  },
+  {
+    "country": "Finland",
+    "fact": "Finland has over 187,000 lakes, earning it the nickname 'Land of a Thousand Lakes'."
+  },
+  {
+    "country": "Nigeria",
+    "fact": "Nigeria is the most populous country in Africa."
+  },
+  {
+    "country": "Peru",
+    "fact": "The Nazca Lines, a series of giant geoglyphs etched into the desert, are a UNESCO World Heritage Site in Peru."
+  },
+  {
+    "country": "Iran",
+    "fact": "Iran is home to half of the world's pistachios."
+  },
+  {
+    "country": "Jamaica",
+    "fact": "Reggae music originated in Jamaica."
+  },
+  {
+    "country": "New Zealand",
+    "fact": "The flightless bird, the kiwi, is a national symbol of New Zealand."
+  },
+  {
+    "country": "Chile",
+    "fact": "Easter Island, famous for its moai statues, is part of Chile."
+  },
+  {
+    "country": "Portugal",
+    "fact": "Pastéis de nata, a rich egg tart pastry, is a national treasure in Portugal."
+  },
+  {
+    "country": "Senegal",
+    "fact": "Senegal is known for its vibrant music scene, particularly drumming and mbalax."
+  },
+  {
+    "country": "Ethiopia",
+    "fact": "Ethiopia is the only African country to never be colonized by a European power."
+  },
+  {
+    "country": "Turkey",
+    "fact": "Hagia Sophia, a former church, mosque, and now museum, is a UNESCO World Heritage Site that bridges the gap between Christianity and Islam."
+  },
+  {
+    "country": "Vietnam",
+    "fact": "Phở (pronounced fuh), a noodle soup, is Vietnam's national dish."
+  },
+  {
+    "country": "Argentina",
+    "fact": "Tango lessons are a popular activity for tourists in Buenos Aires, Argentina."
+  },
+  {
+    "country": "Poland",
+    "fact": "The Wieliczka Salt Mine in Poland, dating back to the 13th century, is a UNESCO World Heritage Site."
+  },
+  {
+    "country": "South Korea",
+    "fact": "South Korea has one of the fastest internet connection speeds in the world."
+  },
+  {
+    "country": "Morocco",
+    "fact": "Marrakech, Morocco, is a famous destination known as the Red City for its red-colored buildings."
+  },
+  {
+    "country": "Ireland",
+    "fact": "Ireland is known for its rich history of storytelling and pub culture."
+  },
+  {
+    "country": "Ecuador",
+    "fact": "The Galapagos Islands, known for inspiring Charles Darwin's theory of evolution, are part of Ecuador."
+  },
+  {
+    "country": "Colombia",
+    "fact": "Colombia is the world's second most biodiverse country, following Brazil."
+  },
+  {
+    "country": "New Zealand",
+    "fact": "You can commercially bungee jump off the Kawarau Bridge, the world's first ever site for this activity."
+  },
+  {
+    "country": "Iceland",
+    "fact": "Take a dip in the geothermal Blue Lagoon, a milky-turquoise colored pool surrounded by black lava rock."
+  },
+  {
+    "country": "Nepal",
+    "fact": "Embark on the ultimate mountaineering challenge - conquering Mount Everest, the highest mountain in the world."
+  },
+  {
+    "country": "Costa Rica",
+    "fact": "Go white-water rafting on the thrilling rapids of the Pacuare River, surrounded by lush rainforest."
+  },
+  {
+    "country": "Tanzania",
+    "fact": "Witness the awe-inspiring wildebeest migration in the Serengeti National Park, the largest mammal migration on Earth."
+  },
+  {
+    "country": "Morocco",
+    "fact": "Take a camel trek through the vast Sahara Desert, experiencing the nomadic lifestyle under a star-filled sky."
+  },
+  {
+    "country": "Japan",
+    "fact": "Go spelunking in the Narusawa Ice Cave, venturing deep into a world of glistening ice formations."
+  },
+  {
+    "country": "Bolivia",
+    "fact": "Challenge yourself with the world's most dangerous road - the North Yungas Road, also known as 'Death Road'."
+  },
+  {
+    "country": "Brazil",
+    "fact": "Iguazu Falls, on the border with Argentina, is a breathtaking series of waterfalls larger than Niagara Falls."
+  },
+  {
+    "country": "Canada",
+    "fact": "Go kayaking amongst breaching whales in the waters off Vancouver Island, an unforgettable wildlife encounter."
+  },
+  {
+    "country": "Chile",
+    "fact": "Ski down the slopes of Villarrica Volcano, an active volcano offering stunning views and thrilling descents."
+  },
+  {
+    "country": "Vietnam",
+    "fact": "Explore the maze-like tunnels of the Cu Chi Tunnels, a network used by Viet Cong guerillas during the Vietnam War."
+  },
+  {
+    "country": "Australia",
+    "fact": "The Great Barrier Reef is the world's largest coral reef system, offering incredible snorkeling and diving opportunities."
+  },
+  {
+    "country": "France",
+    "fact": "Traverse the breathtaking Mont Blanc massif, the highest mountain range in Western Europe, for epic scenery and challenging hikes."
+  },
+  {
+    "country": "Italy",
+    "fact": "Go spelunking in the Frasassi Caves, a vast network of underground chambers adorned with stunning stalactites and stalagmites."
+  },
+  {
+    "country": "Kenya",
+    "fact": "Take a hot air balloon safari over the Maasai Mara National Reserve, spotting incredible wildlife from above."
+  },
+  {
+    "country": "South Africa",
+    "fact": "Go cage diving with Great White Sharks in Gansbaai, experiencing these apex predators up close."
+  },
+  {
+    "country": "Norway",
+    "fact": "Hike the scenic trails of Trolltunga, a spectacular cliff formation jutting out over a vast lake."
+  },
+  {
+    "country": "Switzerland",
+    "fact": "Embark on the Glacier Express train journey, traveling through breathtaking Alpine scenery on one of the most scenic railways in the world."
+  },
+  {
+    "country": "Greece",
+    "fact": "Scuba dive the underwater ruins of Santorini, a volcanic island with remnants of an ancient civilization."
+  },
+
+  {
+    "country": "Fiji",
+    "fact": "Swim with manta rays in the crystal-clear waters of Nanuya Lailai Island, a magical underwater encounter."
+  },
+  {
+    "country": "Guatemala",
+    "fact": "Hike through the ancient Mayan city of Tikal, exploring towering temples hidden within the rainforest."
+  }
+]

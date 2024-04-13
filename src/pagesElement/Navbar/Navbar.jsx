@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react'
 import '../Navbar/Navbar.css'
 import data from '../../data/facts.json'
 import { Button } from '@/components/ui/button'
-import { Toaster } from "@/components/ui/sonner"
-import { toast } from "sonner"
+import { Toaster } from "@/components/ui/toaster"
+import { useToast } from "@/components/ui/use-toast"
 import {
   Select,
   SelectContent,
@@ -13,15 +13,21 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 function Navbar() {
+  function hello(){
+    let a = Math.floor(Math.random() * (88 - 1 + 1)) + 1;
+    let het = data[a].country;
+    let shah = data[a].fact;
+    toast({
+      title: `${het}`,
+      description: `${shah}`,
+    })
+  }
 
-    function hello(){
-      let a = Math.floor(Math.random() * (88 - 1 + 1)) + 1;
-      let shah = data[a].fact;
-      toast(`Fact:- ${shah}`); 
-    }
+  const { toast } = useToast()
   return (
+    
     <>
-      <div className="main-navbar-container w-full flex flex-row bg-[#070F2B]  justify-between h-[4.5rem] sticky top-0 z-10">
+      <div className="main-navbar-container w-full flex flex-row bg-[#070F2B]  justify-between h-[4.5rem] sticky top-0 z-1">
         <div className="left-navbar flex justify-start items-center w-[12%] font-[lora] font-semibold  pl-10 ">
           <p className=' text-slate-200 text-2xl'>logo</p>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from '@/components/ui/button'
 // import '../Footer/Footer.css'
+import { IoLogoInstagram , IoLogoTwitter ,IoLogoGithub ,IoLogoLinkedin , IoLogoYoutube   } from "react-icons/io";
 function Footer() {
   return (
     <>
@@ -30,6 +31,13 @@ function Footer() {
                 </div>
                 <div className="email-footer-section">
                     <p className=' cursor-pointer '>travellingindex@gmail.com</p>
+                </div>
+                <div className="icons flex mt-5">
+                <IoLogoInstagram className='mr-2 text-[35px] cursor-pointer'/>
+                <IoLogoTwitter className='mx-2 text-[35px] cursor-pointer'/>
+                <IoLogoGithub className='mx-2 text-[35px] cursor-pointer'/>
+                <IoLogoLinkedin className='mx-2 text-[35px] cursor-pointer'/>
+                <IoLogoYoutube className='ml-2 text-[35px] cursor-pointer'/>
                 </div>
             </div>
 

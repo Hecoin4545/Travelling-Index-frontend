@@ -2,6 +2,9 @@ import React from 'react'
 import { Badge } from "@/components/ui/badge"
 import { IoStarSharp } from "react-icons/io5";
 import { MdVerified } from "react-icons/md";
+import { AiFillLike } from "react-icons/ai";
+import { FaShareAlt } from "react-icons/fa";
+import { BsAirplaneFill } from "react-icons/bs";
 import displayImage1 from '../../assets/displayImage1.jpg'
 import displayImage2 from '../../assets/displayImage2.jpg'
 import displayImage5 from '../../assets/displayImage5.jpg'
@@ -97,6 +100,14 @@ function Post() {
             <div className="last-travelling-post-section mt-5">
                 <div className="inner-last-travelling-section flex justify-center">
                     <p className='font-bold font-[lora] border-black border-[2px] rounded-sm p-2 '>Does User Recommand This Place:- Yes</p>
+                </div>
+            </div>
+
+            <div className="like-bucketlist-area mt-5">
+                <div className="socials-like-bucketlist flex justify-around mx-5  p-5">
+                <AiFillLike className='font-bold text-[2rem] mx-5' />
+                <BsAirplaneFill className='font-bold text-[2rem] mx-5' />
+                <FaShareAlt className='font-bold text-[2rem] mx-5' />
                 </div>
             </div>
 

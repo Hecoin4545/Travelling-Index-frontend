@@ -6,6 +6,7 @@ import Post from './pagesElement/Posts/Post.jsx'
 // import Info from './pagesElement/Info/Info.jsx'
 // import Accordian from './pagesElement/Accordian/Accordian.jsx'
 import Footer from './pagesElement/Footer/Footer.jsx'
+import Tnc from './pagesElement/tnc/terms.jsx'
 // import Explore from './pagesElement/Explore/Explore.jsx'
 // import Countries from './pagesElement/Countries/Countries.jsx'
 // import Signup from './pagesElement/Signup/Signup.jsx'
@@ -16,7 +17,8 @@ function App() {
   return (
     <>
     <Navbar />
-    <Post />
+    {/* <Tnc/> */}
+    {/* <Post /> */}
     {/* <Explore /> */}
     {/* <Countries /> */}
     

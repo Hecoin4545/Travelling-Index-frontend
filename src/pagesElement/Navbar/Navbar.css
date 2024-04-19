@@ -11,3 +11,7 @@
   font-weight: 500;
   font-style: normal;
 }
+
+.main-navbar-container {
+  z-index: 10;
+}

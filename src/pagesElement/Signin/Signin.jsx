@@ -1,14 +1,16 @@
 import React from 'react'
 import signup from '../../assets/signup.png'
+import {Link} from 'react-router-dom'
+
 import { Button } from '@/components/ui/button'
 import '../Signin/Signin.css'
-import {
-    Select,
-    SelectContent,
-    SelectItem,
-    SelectTrigger,
-    SelectValue,
-  } from "@/components/ui/select"
+// import {
+//     Select,
+//     SelectContent,
+//     SelectItem,
+//     SelectTrigger,
+//     SelectValue,
+//   } from "@/components/ui/select"
 
 function Signin() {
   return (
@@ -44,7 +46,7 @@ function Signin() {
                         <Button variant='default' className='cursor-pointer font-bold font-[lora] bg-[#070f2b] w-[20rem]' >SignIn</Button>
                     </div>
             <div>
-                <p className='link-signin flex justify-center items-center mt-3 font-[karla] font-semibold text-md'>Don't have An Account??<Button variant='link' className='font-semibold text-sm  cursor-pointer '>Signup Here</Button></p>
+                <p className='link-signin flex justify-center items-center mt-3 font-[karla] font-semibold text-md'>Don't have An Account??<Button variant='link' className='font-semibold text-sm  cursor-pointer '><Link to='/signup'>Signup Here</Link></Button></p>
             </div>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from '@/components/ui/button'
+import {Link} from 'react-router-dom'
 // import '../Footer/Footer.css'
 import { IoLogoInstagram , IoLogoTwitter ,IoLogoGithub ,IoLogoLinkedin , IoLogoYoutube   } from "react-icons/io";
 function Footer() {
@@ -75,12 +76,12 @@ function Footer() {
                         </div>
                         <div className="anchor-right-footer-section">
                         <ul className='mt-1'>
-                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><a href='#'>Signup</a></li>
-                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><a href='#'>Dashboard</a></li>
-                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><a href='#'></a>Post</li>
-                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><a href='#'>Home</a></li>
-                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><a href='#'>Explore</a></li>
-                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><a href='#'>Trending</a></li>
+                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'>Signup</Link></li>
+                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'>Dashboard</Link></li>
+                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'></Link>Post</li>
+                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'>Home</Link></li>
+                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'>Explore</Link></li>
+                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'>Trending</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -91,11 +92,11 @@ function Footer() {
                     </div>
                     <div className="anchor-right-footer-section">
                     <ul className='mt-1'>
-                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><a href='#'>Private Policies</a></li>
-                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><a href='#'>Terms And Conditions</a></li>
+                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'>Private Policies</Link></li>
+                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'>Terms And Conditions</Link></li>
                            
-                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><a href='#'>Support</a></li>
-                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><a href='#'>Bug?</a></li>
+                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'>Support</Link></li>
+                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'>Bug?</Link></li>
                             </ul>
                     </div>
                     </div>

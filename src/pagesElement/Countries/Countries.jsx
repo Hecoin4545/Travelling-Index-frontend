@@ -1,4 +1,5 @@
 import React from 'react'
+import InnerCountries from '@/propPages/InnerCountries'
 import displayImage1 from '../../assets/displayImage1.jpg'
 import displayImage2 from '../../assets/displayImage2.jpg'
 import displayImage3 from '../../assets/displayImage3.jpg'
@@ -13,74 +14,11 @@ function Countries() {
       <div className="heading-countries mb-7 font-[lora] font-bold flex justify-center text-5xl items-center">
         <p>List Of Countries</p></div>
       <div className="main-card-section flex justify-between flex-wrap">
-
-      <div className="card-countries-container my-3 rounded-t-[1rem]">
-        <div className="inner-upper-section">
-          <img src={displayImage1} alt="" className='w-[22rem] h-[14rem]  rounded-t-[1rem]'/>
-        </div>
-        <div className="middle-name-section">
-          <h1 className='font-[lora] text-3xl font-bold my-2 px-2'>India</h1>
-        </div>
-        <div className="lower-card-section flex justify-between px-2 font-[karla] font-semibold mb-3">
-          <p>400 reviews</p>
-          <p>Ratings: 4.5/5.0</p>
-        </div>
-      </div>
-
-
-           <div className="card-countries-container my-3 rounded-t-[1rem]">
-        <div className="inner-upper-section">
-          <img src={displayImage2} alt="" className='w-[22rem] h-[14rem]  rounded-t-[1rem]'/>
-        </div>
-        <div className="middle-name-section">
-          <h1 className='font-[lora] text-3xl font-bold my-2 px-2'>Australia</h1>
-        </div>
-        <div className="lower-card-section flex justify-between px-2 font-[karla] font-semibold mb-3">
-          <p>250 reviews</p>
-          <p>Ratings: 4.5/5.0</p>
-        </div>
-      </div>
-
-
-        <div className="card-countries-container my-3 rounded-t-[1rem]">
-        <div className="inner-upper-section">
-          <img src={displayImage3} alt="" className='w-[22rem] h-[14rem]  rounded-t-[1rem]'/>
-        </div>
-        <div className="middle-name-section">
-          <h1 className='font-[lora] text-3xl font-bold my-2 px-2'>Uk</h1>
-        </div>
-        <div className="lower-card-section flex justify-between px-2 font-[karla] font-semibold mb-3">
-          <p>410 reviews</p>
-          <p>Ratings: 4.2/5.0</p>
-        </div>
-      </div>
-
-
-        <div className="card-countries-container my-3 rounded-t-[1rem]">
-        <div className="inner-upper-section">
-          <img src={displayImage4} alt="" className='w-[22rem] h-[14rem]  rounded-t-[1rem]'/>
-        </div>
-        <div className="middle-name-section">
-          <h1 className='font-[lora] text-3xl font-bold my-2 px-2'>Usa</h1>
-        </div>
-        <div className="lower-card-section flex justify-between px-2 font-[karla] font-semibold mb-3">
-          <p>100 reviews</p>
-          <p>Ratings: 4.0/5.0</p>
-        </div>
-      </div>
-
-          <div className="card-countries-container my-3 rounded-t-[1rem]">
-        <div className="inner-upper-section">
-          <img src={displayImage5} alt="" className='w-[22rem] h-[14rem]  rounded-t-[1rem]'/>
-        </div>
-        <div className="middle-name-section">
-          <h1 className='font-[lora] text-3xl font-bold my-2 px-2'>Mongolia</h1>
-        </div>
-        <div className="lower-card-section flex justify-between px-2 font-[karla] font-semibold mb-3">
-          <p>200 reviews</p>
-          <p>Ratings: 4.5/5.0</p>
-        </div>
-      </div>
+        <InnerCountries ImageDisplay={displayImage1} Country='India'  TotalReviews='400' Ratings='4.2' />
+        <InnerCountries ImageDisplay={displayImage2} Country='Australia'  TotalReviews='300' Ratings='3.2' />
+        <InnerCountries ImageDisplay={displayImage3} Country='Uk'  TotalReviews='100' Ratings='2.2' />
+        <InnerCountries ImageDisplay={displayImage4} Country='Usa'  TotalReviews='120' Ratings='4.5' />
+        <InnerCountries ImageDisplay={displayImage5} Country='Mongolia'  TotalReviews='230' Ratings='4.0' />
       </div>
     </div>
     </>

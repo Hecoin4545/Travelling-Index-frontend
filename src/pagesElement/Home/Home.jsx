@@ -1,6 +1,7 @@
 import React from 'react'
 import homeImage from '../../assets/homeBanner.png'
 import './Home.css'
+import InnerHome from '@/propPages/InnerHome'
 function Home() {
   return (
     <> 
@@ -10,22 +11,10 @@ function Home() {
         </div>
         <div className="information-home-image-section px-10 w-[92rem] flex justify-center items-center">
             <div className="poper-info-home flex justify-evenly items-center h-[6rem] bg-[#070f2be8] w-[67rem] rounded-md ">
-                <div>
-                    <p className=' text-slate-200 font-[lora] text-lg font-bold  mb-1'>Location:</p>
-                    <p className=' text-slate-200 font-[karla] text-md '>Paris,Europe</p>
-                </div>
-                <div>
-                    <p className=' text-slate-200 font-[lora] text-lg font-bold mb-1'>Date:</p>
-                    <p className=' text-slate-200 font-[karla] text-md '>21-08-24</p>
-                </div>
-                <div>
-                    <p className=' text-slate-200 font-[lora] text-lg font-bold mb-1'>Description:</p>
-                    <p className=' text-slate-200 font-[karla] text-md '>Amazying Place</p>
-                </div>
-                <div>
-                    <p className=' text-slate-200 font-[lora] text-lg font-bold mb-1'>Month:</p>
-                    <p className=' text-slate-200 font-[karla] text-md '>August</p>
-                </div>
+              <InnerHome Headlines='Location:' Information='Paris , Europe' />
+              <InnerHome Headlines='Date:' Information='21-08-24' />
+              <InnerHome Headlines='Description:' Information='Amazing Place' />
+              <InnerHome Headlines='Month:' Information='August' />
             </div>
         </div>
     </div>

@@ -4,13 +4,6 @@ import {Link} from 'react-router-dom'
 
 import { Button } from '@/components/ui/button'
 import '../Signin/Signin.css'
-// import {
-//     Select,
-//     SelectContent,
-//     SelectItem,
-//     SelectTrigger,
-//     SelectValue,
-//   } from "@/components/ui/select"
 
 function Signin() {
   return (

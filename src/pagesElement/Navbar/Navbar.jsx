@@ -14,13 +14,13 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 function Navbar() {
-  function hello(){
-    let a = Math.floor(Math.random() * (88 - 1 + 1)) + 1;
-    let het = data[a].country;
-    let shah = data[a].fact;
+  function randomCountryFactGenerator(){
+    let randomNumber = Math.floor(Math.random() * (88 - 1 + 1)) + 1;
+    let countryDetail= data[randomNumber].country;
+    let factDescription = data[randomNumber].fact;
     toast({
-      title: `${het}`,
-      description: `${shah}`,
+      title: `${countryDetail}`,
+      description: `${factDescription}`,
     })
   }
 
@@ -41,7 +41,7 @@ function Navbar() {
         </div>
         <div className="left-navbar w-[20%] flex justify-end pr-10">
           <div className="button-inner flex items-center">
-            <Button variant='secondary' className='cursor-pointer font-bold font-[lora] mr-3' onClick={()=>hello()}  >Travel Facts</Button>
+            <Button variant='secondary' className='cursor-pointer font-bold font-[lora] mr-3' onClick={()=>randomCountryFactGenerator()}  >Travel Facts</Button>
             <Button variant='secondary' className='cursor-pointer font-bold font-[lora]' ><Link to='/signup'>Signup</Link></Button>
             <Select >
               <SelectTrigger className=" ml-3 w-[100px] placeholder-slate-200 text-slate-200 font-[lora] font-semibold">

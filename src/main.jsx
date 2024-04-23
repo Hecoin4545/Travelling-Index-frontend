@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
-import Layout from './pagesElement/Layout/Layout.jsx';
+import Layout from './reactLayout/Layout.jsx';
 import Accordian from './pagesElement/Accordian/Accordian.jsx';
 import Countries from './pagesElement/Countries/Countries.jsx';
 import Display from './pagesElement/Display/Display.jsx';

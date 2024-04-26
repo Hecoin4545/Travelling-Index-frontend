@@ -78,7 +78,7 @@ function Footer() {
                         <ul className='mt-1'>
                                 <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'>Signup</Link></li>
                                 <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'>Dashboard</Link></li>
-                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'></Link>Post</li>
+                                <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='/posts'></Link>Post</li>
                                 <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'>Home</Link></li>
                                 <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'>Explore</Link></li>
                                 <li className=' text-md font-[karla] font-medium text-slate-300 mt-1'><Link to='#'>Trending</Link></li>

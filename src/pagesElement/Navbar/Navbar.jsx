@@ -30,7 +30,7 @@ function Navbar() {
     <>
       <div className="main-navbar-container w-full flex flex-row bg-[#070F2B]  justify-between h-[4.5rem] sticky top-0 ">
         <div className="left-navbar flex justify-start items-center w-[12%] font-[lora] font-semibold  pl-10 ">
-          <p className=' text-slate-200 text-2xl'>logo</p>
+          <p className=' text-slate-200 text-2xl'>TIC</p>
         </div>
         <div className="center-navbar w-[63%] flex items-center ">
           <ul className=' w-64 flex justify-start items-center font-[karla] text-lg'>

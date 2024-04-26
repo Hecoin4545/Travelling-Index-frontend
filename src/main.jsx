@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
-import Layout from './reactLayout/Layout.jsx';
+import Layout from '../src/reactLayout/Layout.jsx';
 import Accordian from './pagesElement/Accordian/Accordian.jsx';
 import Countries from './pagesElement/Countries/Countries.jsx';
 import Display from './pagesElement/Display/Display.jsx';
@@ -11,6 +11,7 @@ import Info from './pagesElement/Info/Info.jsx';
 import Post from './pagesElement/Posts/Post.jsx';
 import Singin from './pagesElement/Signin/Signin.jsx';
 import Signup from './pagesElement/Signup/Signup.jsx';
+import WritePosts from './pagesElement/WritePosts/WritePosts.jsx';
 import './index.css'
 
 const router = createBrowserRouter(
@@ -21,6 +22,7 @@ const router = createBrowserRouter(
       <Route path='post' element={<Post />} />
       <Route path='signin' element={<Singin />} />
       <Route path='signup' element={<Signup />}/> 
+      <Route path='writeposts' element={<WritePosts />}/> 
     </Route>
   )
 )
@@ -30,3 +32,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <RouterProvider router={router} / >
   </React.StrictMode>,
 )
+
+
+
+{/* TODO: Agar Mane Koi Aur Page Pe Gaya Then Vo Pura Scroll Upar Hona Chahiye  */}

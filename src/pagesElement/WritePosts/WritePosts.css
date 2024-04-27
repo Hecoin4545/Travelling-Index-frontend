@@ -1,4 +1,4 @@
-* {
+/* * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -56,4 +56,11 @@ figcaption {
   text-align: center;
   font-size: 2.4vmin;
   margin-top: 0.5vmin;
+} */
+
+.inner-right-area-section-text-to-post-by-user {
+  /* width */
+  scrollbar-width: 10px;
+  scrollbar-track-color: white;
+  /* ::-webkit-scrollbar-thumb:#888; */
 }

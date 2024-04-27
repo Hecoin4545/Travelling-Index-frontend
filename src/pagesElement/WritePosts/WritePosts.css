@@ -58,9 +58,89 @@ figcaption {
   margin-top: 0.5vmin;
 } */
 
-.inner-right-area-section-text-to-post-by-user {
+/* .inner-right-area-section-text-to-post-by-user {
   /* width */
+/* scrollbar-width: 10px;
+  scrollbar-track-color: white; */
+/* ::-webkit-scrollbar-thumb:#888; */
+/* } */
+
+*/ * {
+  margin: 0;
+  padding: 0;
+}
+
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+
+.rate:not(:checked)>input {
+  position: absolute;
+  top: -9999px;
+}
+
+.rate:not(:checked)>label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 50px;
+  color: #ccc;
+}
+
+.rate:not(:checked)>label:before {
+  content: '★ ';
+}
+
+.rate>input:checked~label {
+  color: #ffc700;
+}
+
+.rate:not(:checked)>label:hover,
+.rate:not(:checked)>label:hover~label {
+  color: #deb217;
+}
+
+.rate>input:checked+label:hover,
+.rate>input:checked+label:hover~label,
+.rate>input:checked~label:hover,
+.rate>input:checked~label:hover~label,
+.rate>label:hover~input:checked~label {
+  color: #c59b08;
+}
+
+/* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
+
+.inner-right-area-section-text-to-post-by-user {
+  overflow-y: scroll;
+  height: 33rem;
+}
+
+
+.inner-right-area-section-text-to-post-by-user::-webkit-scrollbar {
+  width: 12px;
+  /* width of the entire scrollbar */
+}
+
+/* .inner-right-area-section-text-to-post-by-user::-webkit-scrollbar-track { */
+/* background: orange; */
+/* color of the tracking area */
+/* } */
+
+.inner-right-area-section-text-to-post-by-user::-webkit-scrollbar-thumb {
+  /* background-color: blue; */
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  /* border: 3px solid orange; */
+  /* creates padding around scroll thumb */
+}
+
+/* .right-area-section-text-to-post {
   scrollbar-width: 10px;
   scrollbar-track-color: white;
-  /* ::-webkit-scrollbar-thumb:#888; */
-}
+
+} */
